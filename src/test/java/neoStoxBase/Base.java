@@ -16,7 +16,6 @@ public class Base {
 		driver.get(Utility.readDataFromProoertyFile("url"));
 		Reporter.log("Launching NeostoxApp", true);
 		
-		
 		Utility.impliciteWait(100, driver);
 		
 		//Comment 1
