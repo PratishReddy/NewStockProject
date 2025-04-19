@@ -28,5 +28,11 @@ public class NeoStoxPasswordPage
 		passSubmitButton.click();
 		Reporter.log("clicking on password submit button", true);
 	}
+	
+	public void ClickonpassSubmitButton(int a) 
+	{
+		passSubmitButton.click();
+		Reporter.log("clicking on password submit button", true);
+	}
 
 }
